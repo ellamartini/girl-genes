@@ -1,0 +1,111 @@
+html {
+  background-image: url(assets/red_glitter.jpg);
+  background-attachment: fixed;
+  font-size: 20px;
+}
+
+body {
+  color: white;
+}
+
+#contentContainer {
+  padding: 30px;
+  margin: 150px;
+  background-color: black;
+}
+
+a {
+  color: rgb(61, 129, 232);
+}
+
+a:visited {
+  color: rgb(61, 129, 232);
+}
+
+/* home button */
+
+#homeButton {
+  background-color: white;
+  padding: 10px;
+  margin: 20px;
+  width: 180px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: black;
+}
+
+#homeButton img {
+  width: 180px;
+}
+
+#homeButton:hover {
+  cursor: pointer;
+}
+
+#punkSpan {
+  color: rgb(249, 80, 207);
+}
+
+#punkSpan {
+  cursor: pointer;
+}
+
+#hardcoreSpan {
+  color: rgb(249, 80, 207);
+}
+
+#hardcoreSpan {
+  cursor: pointer;
+}
+
+#punkNav {
+  position: fixed;
+  top: 0%;
+  left: 42%;
+  visibility: hidden;
+  background-color: rgb(249, 80, 207);
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+
+#hardcoreNav {
+  position: fixed;
+  top: 0%;
+  left: 40%;
+  visibility: hidden;
+  background-color: rgb(249, 80, 207);
+  color: white;
+  padding: 30px;
+  font-size: 30px;
+}
+
+#fangirlsSpan {
+  color: rgb(249, 80, 207);
+}
+
+#fangirlsImg {
+  visibility: hidden;
+  position: absolute;
+  width: 355px;
+  margin-left: 0;
+  margin-top: -260px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: white;
+  box-shadow: 0px 0px 20px white;
+}
+
+#footnotes {
+  background-color: white;
+  color: black;
+  margin-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 25px;
+  margin-bottom: 5%;
+  border-style: solid;
+  border-width: 3px;
+  font-size: 16px;
+  text-align: left;
+}

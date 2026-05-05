@@ -1,0 +1,143 @@
+html {
+  background-image: url(assets/iohArt.jpg);
+  background-position: center;
+}
+
+body {
+  font-size: 20px;
+}
+
+a {
+  color: rgb(61, 129, 232);
+}
+
+a:visited {
+  color: rgb(61, 129, 232);
+}
+
+#textContainer {
+  padding: 50px;
+  margin-left: 33%;
+  margin-right: 33%;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+#textContainer p {
+    margin: 8px;
+}
+
+
+/* home button */
+
+#homeButton {
+  padding: 10px;
+  margin: 20px;
+  width: 180px;
+  background-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#homeButton img {
+  width: 180px;
+}
+
+#homeButton:hover {
+  cursor: pointer;
+}
+
+.pinkText {
+    color: rgb(249, 80, 207);
+}
+
+
+/* POPUPS */
+
+#titlePopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -160px;
+    margin-top: -80px;
+    width: 250px;
+}
+
+#godPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -160px;
+    margin-top: -150px;
+    width: 300px;
+}
+
+#wrongsPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 120px;
+    margin-top: -100px;
+    width: 120px;
+}
+
+#whoDoesPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -100px;
+    margin-top: -340px;
+    width: 440px;
+}
+
+#keysPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: -530px;
+    width: 350px;
+}
+
+#thanksPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -160px;
+    margin-top: -140px;
+    width: 350px;
+}
+
+#sweeterPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -40px;
+    margin-top: -400px;
+    width: 730px;
+}
+
+#standOffPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 20px;
+    margin-top: -120px;
+    width: 300px;
+}
+
+#numbersPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: 60px;
+    margin-top: -320px;
+    width: 680px;
+}
+
+#pageSixPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -240px;
+    margin-top: -330px;
+    width: 500px;
+}
+
+#linerPopup {
+    visibility: hidden;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: -240px;
+    width: 500px;
+}
