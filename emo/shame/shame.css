@@ -1,0 +1,63 @@
+html {
+  background-image: url(assets/open_journal\ copy.png);
+  background-color: rgb(255, 208, 239);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center 4%;
+}
+
+body {
+  padding: 0;
+  font-size: 18px;
+}
+
+#textContainer {
+    position: absolute;
+    height: 80vh;
+    width: 27%;
+    margin-left: 52%;
+    margin-top: -40px;
+    margin-bottom: 10%;
+    overflow: scroll;
+    scrollbar-color: transparent transparent;
+}
+
+#imgContainer {
+    position: absolute;
+    height: 80vh;
+    width: 27%;
+    margin-left: 21%;
+    margin-top: -30px;
+    margin-bottom: 10%;
+    overflow: scroll;
+    scrollbar-color: transparent transparent;
+}
+
+#imgContainer img {
+    width: 100%;
+}
+
+a {
+  color: rgb(61, 129, 232);
+}
+
+a:visited {
+  color: rgb(61, 129, 232);
+}
+
+/* home button */
+
+#homeButton {
+  padding: 10px;
+  margin: 20px;
+  margin-bottom: 0;
+  width: 180px;
+}
+
+#homeButton img {
+  width: 180px;
+}
+
+#homeButton:hover {
+  cursor: pointer;
+}

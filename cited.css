@@ -1,0 +1,52 @@
+html {
+  background-color: white;
+}
+
+body {
+  font-size: 19px;
+}
+
+a {
+  color: rgb(61, 129, 232);
+}
+
+a:visited {
+  color: rgb(61, 129, 232);
+}
+
+#contentContainer {
+  padding: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 100px;
+  background-color: white;
+}
+
+#contentContainer p {
+    margin-bottom: 30px;
+    font-family: Garamond, serif;
+}
+
+#contentContainer h2 {
+    font-family: Garamond, serif;
+    font-size: 23px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+
+/* home button */
+
+#homeButton {
+  padding: 10px;
+  margin: 20px;
+  width: 180px;
+}
+
+#homeButton img {
+  width: 180px;
+}
+
+#homeButton:hover {
+  cursor: pointer;
+}

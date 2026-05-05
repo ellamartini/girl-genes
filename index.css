@@ -1,0 +1,171 @@
+html {
+  background-color: lightpink;
+  color: black;
+}
+
+body {
+  padding: 0;
+  margin: 100px;
+  margin-top: 60px;
+  font-size: 18px;
+}
+
+a {
+  color: rgb(51, 109, 195);
+}
+
+a:visited {
+  color: rgb(51, 109, 195);
+}
+
+#contentContainer {
+  display: flex;
+  flex-direction: row;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 0;
+}
+
+.column {
+  width: 45%;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
+#beta {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+#textContainer {
+  height: 70vh;
+  overflow: scroll;
+  scrollbar-color: transparent transparent;
+}
+
+.icon {
+  position: fixed;
+  width: 70px;
+  font-size: 14px;
+}
+
+.icon:hover {
+  cursor: pointer;
+}
+
+.icon img {
+  max-width: 100%;
+  max-height: 100%;
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: black; */
+}
+
+.icon:hover img {
+  filter: drop-shadow(5px 0px 0px white);
+}
+
+.icon p {
+  margin: 0;
+  text-align: center;
+}
+
+#punkIcon {
+  left: 12%;
+  top: 100px;
+}
+
+#hardcoreIcon {
+  left: 15%;
+  top: 250px;
+}
+
+#emocoreIcon {
+  left: 22%;
+  top: 90px;
+}
+
+#glamIcon {
+  left: 25%;
+  top: 210px;
+}
+
+#gerardIcon {
+  left: 34%;
+  top: 130px;
+}
+
+#authenticityIcon {
+  left: 6%;
+  top: 400px;
+}
+
+#curatorialIcon {
+  left: 16%;
+  top: 380px;
+}
+
+#desireIcon {
+  left: 26%;
+  top: 390px;
+}
+
+#journalismIcon {
+  left: 34%;
+  top: 300px;
+}
+
+#stageGayIcon {
+  left: 40%;
+  top: 460px;
+}
+
+#styleIcon {
+  left: 9%;
+  top: 560px;
+}
+
+#trinityIcon {
+  left: 18%;
+  top: 520px;
+}
+
+#shameIcon {
+  left: 25%;
+  top: 570px;
+}
+
+#mmrsIcon {
+  left: 33%;
+  top: 580px;
+}
+
+#citedIcon {
+  left: 4%;
+  top: 270px;
+}
+
+#curatorialSpan {
+  color: rgb(249, 80, 207);
+}
+
+#curatorialSpan:hover {
+  cursor: pointer;
+}
+
+#punkSpan {
+  color: rgb(249, 80, 207);
+}
+
+#punkSpan:hover {
+  cursor: pointer;
+}
+
+#hardcoreSpan {
+  color: rgb(249, 80, 207);
+}
+
+#hardcoreSpan:hover {
+  cursor: pointer;
+}
