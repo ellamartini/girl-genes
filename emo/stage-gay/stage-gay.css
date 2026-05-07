@@ -9,8 +9,8 @@ body {
 #contentContainer {
   padding: 0;
   margin-top: 5%;
-  margin-left: 20%;
-  margin-right: 20%;
+  margin-left: 35%;
+  margin-right: 5%;
 }
 
 a {
@@ -23,6 +23,11 @@ a:visited {
 
 h2 {
   margin-top: 70px;
+}
+
+#title {
+  margin-top: 70px;
+  font-size: 60px;
 }
 
 /* home button */
