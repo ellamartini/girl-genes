@@ -39,7 +39,8 @@ const mclaren = document.getElementById('mclaren');
 const foucault = document.getElementById('foucault');
 const ramones = document.getElementById('ramones');
 const poseur = document.getElementById('poseur');
-const punk2 = document.getElementById('punk2');
+const blondie = document.getElementById('blondie');
+const blondieText = document.getElementById('blondieText');
 
 
 button1.addEventListener('click', () => {
@@ -116,7 +117,8 @@ button12.addEventListener('click', () => {
     button12.style.visibility = 'hidden';
     t13.style.visibility = 'visible';
     button13.style.visibility = 'visible';
-    punk2.style.visibility = 'visible';
+    blondie.style.visibility = 'visible';
+    blondieText.style.visibility = 'visible';
 })
 
 button13.addEventListener('click', () => {
